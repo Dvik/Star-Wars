@@ -1,16 +1,13 @@
 package com.starwarspeople.view;
 
 import android.os.Bundle;
-import android.support.annotation.IdRes;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
-import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -24,14 +21,11 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.starwarspeople.R;
-import com.starwarspeople.SendFilterData;
-import com.starwarspeople.adapter.PeopleAdapter;
+import com.starwarspeople.connection.SendFilterData;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 import java.util.TreeSet;
 

@@ -1,4 +1,4 @@
-package com.starwarspeople;
+package com.starwarspeople.connection;
 
 /**
  * Created by Divya on 1/22/2017.

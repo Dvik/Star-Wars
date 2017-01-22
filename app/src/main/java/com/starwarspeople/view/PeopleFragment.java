@@ -15,7 +15,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.starwarspeople.R;
-import com.starwarspeople.SendFilterData;
+import com.starwarspeople.connection.SendFilterData;
 import com.starwarspeople.adapter.PeopleAdapter;
 import com.starwarspeople.data.model.PeopleResponse;
 import com.starwarspeople.retrofit.PeopleAPI;
@@ -24,7 +24,6 @@ import com.starwarspeople.utility.NetworkLogUtility;
 import com.starwarspeople.utility.NetworkUtility;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
 import java.util.TreeSet;
 
