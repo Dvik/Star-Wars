@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/birth_year"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@color/grey_back"
+        android:gravity="left|center_vertical"
+        android:padding="10dp"
+        android:text="Birth Year">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/full_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name" />
+
+        <TextView
+            android:id="@+id/homeworld_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorPrimary"
+            android:text="Home World Name" />
+    </LinearLayout>
+
+
+</LinearLayout>

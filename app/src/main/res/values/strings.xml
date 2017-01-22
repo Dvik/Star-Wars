@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">StarWarsPeople</string>
+    <string name="title">Star Wars People</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="filter">Filter</string>
+
+    <string-array name="array_filter">
+        <item>1111</item>
+        <item>2222</item>
+        <item>3333</item>
+        <item>4444</item>
+        <item>5555</item>
+    </string-array>
+</resources>
